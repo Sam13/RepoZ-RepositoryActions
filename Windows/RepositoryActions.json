@@ -136,6 +136,16 @@
             "active": "true"
         },
         {
+            "name": "{OpenIn} JetBrains Rider",
+            "executables":
+            [
+                '%PROGRAMFILES(X86)%/JetBrains/JetBrains Rider 2021.3.1/bin/rider64.exe'
+            ],
+            "arguments": '"{Repository.SafePath}"',  
+            "keys": "Ctrl+R",
+            "active": "true"
+        },
+        {
             "name": "{OpenIn} GitHub Desktop",
             "command": 'github',
             "arguments": '"{Repository.SafePath}"',  
