@@ -114,6 +114,13 @@
             "active": "true"
         },
         {
+            "name": "{OpenIn} WSL Terminal",
+            "executables": [ '%WINDIR%/Sysnative/wsl.exe' ],
+            "arguments": '--cd "{Repository.SafePath}"',
+            "keys": "Ctrl+W",
+            "active": "true"
+        },
+        {
             "name": "{OpenIn} Windows Command Shell",
             "command": 'cmd',
             "arguments": '/K "cd /d {Repository.SafePath}"',  
