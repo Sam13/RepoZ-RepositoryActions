@@ -143,6 +143,12 @@
             "active": "true"
         },
         {
+            "name": "{OpenIn} Visual Studio Code (WSL)",
+            "executables": [ '%WINDIR%/Sysnative/wsl.exe' ],
+            "arguments": '--cd "{Repository.SafePath}" code .',
+            "active": "true"
+        },
+        {
             "name": "{OpenIn} JetBrains Rider",
             "executables":
             [
