@@ -145,7 +145,7 @@
         {
             "name": "{OpenIn} Visual Studio Code (WSL)",
             "executables": [ '%WINDIR%/Sysnative/wsl.exe' ],
-            "arguments": '--cd "{Repository.SafePath}" code .',
+            "arguments": '--cd "{Repository.SafePath}" -- bash --login -c "code ."',
             "active": "true"
         },
         {
